@@ -1,0 +1,162 @@
+body {
+    font-family: 'Bree Serif', serif;
+    background-color: #C14040;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #C14040;
+    margin-left: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFE3E3;
+    padding : 1.5rem;
+    margin: 2rem;
+    border-radius: 20px;
+}
+
+.cadre-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: auto;
+    margin: 2rem;
+}
+
+.cadre {
+    background-color: #982C2C;
+    min-height: 200px;
+    max-width: 230px;
+    border-radius: 20px;
+    margin: 1rem;
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cadre img {
+    max-width: 200px;
+
+}
+.cadre a{
+    color: #EFE3E3;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #EFE3E3;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.noPokemon{
+    color: #EFE3E3;
+}
+
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.detail-container {
+    margin: 2rem;
+    color: #EFE3E3;
+    display: flex;
+
+}
+
+.detail {
+
+    min-width: 55vw;
+    background-color: #982C2C;
+    padding: 2rem;
+    padding-top: 1rem;
+    border-radius: 10px;
+    margin: 2rem;
+
+}
+
+.type {
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.jauge {
+    background-color: #632B2B;
+    width: 255px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.fill {
+    background-color: #EFE3E3;
+    border-radius: 5px;
+    height: 20px;
+}
+
+/* .display {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.display-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.stat {
+    width: 100px;
+}
+
+.button-wrapper {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.button-wrapper a{
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color: #EFE3E3;
+    background-color: #982C2C;
+    border-radius: 5px;
+}
+
+.type-container {
+
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+    color:#EFE3E3;
+
+}
+
+a {
+    color: #EFE3E3;
+}
